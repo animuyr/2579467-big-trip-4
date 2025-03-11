@@ -15,7 +15,7 @@ export default class EventPresenter {
   #handleDataChange = null;
   #handleViewChange = null;
   #isEventEditing = false;
-  #isEventSaving = false;
+  #isEventSaving = true;
   #isOtherFormOpen = false;
 
   constructor({eventListContainer, onDataChange, onViewChange}) {
